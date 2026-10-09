@@ -1,0 +1,34 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+__pycache__/
+build/
+coverage/
+*.iml
+**/.gradle/
+**/local.properties
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/ephemeral/
+
+# Platform and Firebase credentials/configuration
+service-account.json
+**/google-services.json
+**/GoogleService-Info.plist
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# Local operational scripts and manuals may contain credentials or machine paths
+/*.py
+/manual_usuario_*.txt
+
+# Local/editor files
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db

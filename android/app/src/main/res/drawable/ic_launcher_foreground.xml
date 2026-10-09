@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Computer/Monitor icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,35h48v30h-48z"/>
+    <path
+        android:fillColor="#4A6B52"
+        android:pathData="M34,39h40v22h-40z"/>
+    <path
+        android:fillColor="#6B9B75"
+        android:pathData="M48,55h12v6h-12z"/>
+    <!-- Monitor stand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,65h12v4h-12z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,69h24v4h-24z"/>
+    <!-- Wrench tool overlay -->
+    <path
+        android:fillColor="#C5D4A0"
+        android:pathData="M70,28l8,-8l4,4l-8,8z"/>
+    <path
+        android:fillColor="#C5D4A0"
+        android:pathData="M72,24l-4,4l-4,-4l8,-8l4,4z"/>
+</vector>

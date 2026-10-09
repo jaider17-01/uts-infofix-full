@@ -153,4 +153,3 @@ uts_infofix/
 ---
 
 Desarrollado para UTS — Unidades Tecnológicas de Santander, Bucaramanga 🇨🇴
-

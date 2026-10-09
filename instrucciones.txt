@@ -1,0 +1,15 @@
+# Habilitarproveedor de email/password en Firebase Auth
+# Ve a Firebase Console -> Authentication -> Sign-in method
+# Habilita: Email/Password
+
+print("""
+Para habilitar el login por email/password:
+
+1. Ve a: https://console.firebase.google.com/project/utsinfofixfull/authentication/providers
+2. Busca "Email/Password" 
+3. Toca el botón de editar/habilitar
+4. Habilita "Email/Password" (Enable)
+5. Guarda
+
+Despues intenta login de nuevo en la app.
+""")
