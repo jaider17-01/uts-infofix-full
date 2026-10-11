@@ -1,6 +1,16 @@
 # UTS InfoFix 🖥️🔧
 
-App móvil Flutter para reportar fallas en laboratorios — Unidades Tecnológicas de Santander.
+App Flutter (Android, iOS y Web) para reportar y dar seguimiento a fallas en laboratorios — Unidades Tecnológicas de Santander.
+
+## 🧰 Tecnologías
+
+Flutter · Dart · Provider · Firebase (Authentication, Cloud Firestore, Storage y Messaging) · `mobile_scanner` (lectura de QR con la cámara) · `image_picker` · `shared_preferences` (persistencia de sesión)
+
+## 📌 Estado del proyecto
+
+- Incluye flujo de usuario (reportes, historial, notificaciones, perfil), panel técnico y pantallas de administración de laboratorios, equipos y técnicos.
+- Requiere un proyecto de Firebase propio para ejecutarse (ver abajo); `google-services.json` no se incluye en el repositorio.
+- La prueba automatizada actual (`test/widget_test.dart`) es mínima; ampliar la cobertura es una mejora pendiente.
 
 ---
 
@@ -77,7 +87,7 @@ Crea las cuentas y contraseñas desde Firebase Authentication. Asigna los roles 
 - **Enviar Reporte** → genera notificación automática
 - **Falla Grave / Leve / Faltante / Software** → navegan al formulario con tipo preseleccionado
 - **Tomar Foto / Subir Galería** → acceso real a cámara y galería
-- **Escanear QR** → simulación con datos reales de laboratorio
+- **Escanear QR** → lectura con la cámara mediante `mobile_scanner`
 - **Tabs Pendientes / En Proceso / Solucionados / Historial** → filtros dinámicos
 - **Panel Técnico** → login separado, cambio de estados, observaciones
 - **Cambiar contraseña / Cerrar sesión** → funcionales con confirmación
